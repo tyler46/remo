@@ -243,3 +243,10 @@ li.active {
 #footer li li a:hover,#footer li li a:active{
 	color:#fff;
 }
+
+
+/* Errors in forms */
+
+small.error {
+	margin: -20px 0px 20px 4px;
+} 
