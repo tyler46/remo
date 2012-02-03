@@ -122,6 +122,14 @@ li.active {
     position: relative;
 }
 
+.smallmap-profile {
+    width: 100%;
+    height: 128px;
+    z-index: -1;
+    position: relative;
+    float: right;
+}
+
 .input-text.big {
 	margin: 20px 0px;
 	width: 100%;
@@ -188,6 +196,7 @@ li.active {
 
 #save-profile {
 	margin-top: 50px;
+	margin-bottom: 20px;
 	text-align:right !important;
 }
 
@@ -250,3 +259,21 @@ li.active {
 small.error {
 	margin: -20px 0px 20px 4px;
 } 
+
+/* View profile */
+
+.grayed {
+	color: #888;
+}
+
+.profile-item {
+	margin-top: 20px;
+}
+
+.smallmap-profile-container {
+    margin-top: 20px !important;
+}
+
+.white.label {
+	background-color: #ccc; color: #444 !important;
+}
