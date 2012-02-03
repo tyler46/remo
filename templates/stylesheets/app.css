@@ -76,11 +76,19 @@ a:hover, a:active{
 	padding: 3px;
 }
 
-#navigation-box {
-	text-align: right;
+#navigation-box .nav-bar {
+	float: right !important;
 }
 
-#navigation-box ul{
+#navigation-box ul {
+	margin-bottom: 0px;
+	margin-top: 10px;
+	background: none;
+	border: none;
+}
+
+
+#navigation-box-mobile ul {
 	margin-bottom: 0px;
 	margin-top: 10px;
 	background: none;
