@@ -186,16 +186,13 @@ li.active {
 	cursor: default;
 }
 
+/* Profile Edit CSS */
+
 #profile-image {
 	margin-top: 20px;
 	text-align: left;
 	color: #888;
 	font-size: 10px;
-}
-
-.use-those {
-	margin-top: 50px;
-	text-align: right;
 }
 
 .align-right {
@@ -214,6 +211,35 @@ li.active {
 	border-bottom: 1px solid #ccc !important;
 	border-radius: 0px !important;
 	width: 100%;
+}
+
+/* Point Map CSS */
+
+.use-those {
+	margin-top: 50px;
+	text-align: right;
+}
+
+a.small.button.close-reveal-modal {
+	font-size: 11px;
+	line-height: 1;
+	position: relative;
+	top: 0px;
+	right: 0px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+a.large.button.close-reveal-modal {
+	font-size: 18px;
+	line-height: 1;
+	position: relative;
+	top: 0px;
+	right: 0px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
 }
 
 /* Footer CSS */
