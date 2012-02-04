@@ -1,15 +1,23 @@
-/* Foundation v2.1.5 http://foundation.zurb.com */
-/* Artfully masterminded by ZURB  */
-
 /* -------------------------------------------------- 
    Table of Contents
 -----------------------------------------------------
+:: Fonts
 :: Shared Styles
+:: Header Styles
+:: Main Page Styles
+:: People Page Styles
+:: View Profile Styles
+:: Edit Profile Styles
+:: Point Map Styles
+:: Delete Profile Styles
+:: Footer Styles
+:: Error Styles
+:: Pictogram Styles
 */
 
 
 /* -----------------------------------------
-   Shared Styles
+   Fonts
 ----------------------------------------- */
 
 @font-face {
@@ -38,6 +46,10 @@
 
 }
 
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
 body {
 	border-top: 3px solid #686868;
 	background: #eee;
@@ -59,6 +71,10 @@ a:hover, a:active{
 	-webkit-transition:color .3s ease-out;
 	transition:color .3s ease-out;
 }
+
+/* -----------------------------------------
+   Header Styles
+----------------------------------------- */
 
 #login-box {
 	text-align: right;
@@ -103,9 +119,9 @@ li.active {
 	background: #ddd;
 }
 
-#motto {
-	text-align: center;
-}
+/* -----------------------------------------
+   Main Page Styles
+----------------------------------------- */
 
 .blogpost {
 	margin-top: 20px;
@@ -122,12 +138,65 @@ li.active {
   background: #000 url('images/orbit/loading.gif') no-repeat center center; overflow: hidden; 
 }
 
+/* -----------------------------------------
+   People Page Styles
+----------------------------------------- */
+
 .smallmap {
     width: 100%;
     height: 300px;
     border: 1px solid #ccc;
     z-index: -1;
     position: relative;
+}
+
+/* -----------------------------------------
+   View Profile Styles
+----------------------------------------- */
+
+.grayed {
+	color: #888;
+}
+
+.profile-item {
+	margin-top: 20px;
+}
+
+.smallmap-profile-container {
+    margin-top: 20px !important;
+}
+
+.white.label {
+	background-color: #ccc; color: #444 !important;
+}
+
+/* -----------------------------------------
+   Edit Profile Styles
+----------------------------------------- */
+
+#profile-image {
+	margin-top: 20px;
+	text-align: left;
+	color: #888;
+	font-size: 10px;
+}
+
+.align-right {
+	text-align:right !important;
+}
+
+#save-profile {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align:right !important;
+}
+
+.flat {
+	background: none !important;
+	border: none !important;
+	border-bottom: 1px solid #ccc !important;
+	border-radius: 0px !important;
+	width: 100%;
 }
 
 .smallmap-profile {
@@ -155,65 +224,9 @@ li.active {
 	border-radius: 0px !important;
 }
 
-.pictogram-button {
-	margin-top: 20px;
-	text-align:center;
-	font-family: "ModernPictogramsNormal";
-	font-size: 30px;
-	color: #ccc;
-	cursor: pointer;
-}
-
-.pictogram {
-	margin-top: 20px;
-	text-align:center;
-	font-family: "ModernPictogramsNormal";
-	font-size: 30px;
-	color: #aaa;
-	cursor: default;
-}
-
-.pictogram-button.active, .pictogram-button:hover {
-	color: #888;
-}
-
-.pictogram-search {
-	float:left;
-	font-family: "ModernPictogramsNormal";
-	font-size: 30px;
-	text-align:center;
-	color: #ccc;
-	cursor: default;
-}
-
-/* Profile Edit CSS */
-
-#profile-image {
-	margin-top: 20px;
-	text-align: left;
-	color: #888;
-	font-size: 10px;
-}
-
-.align-right {
-	text-align:right !important;
-}
-
-#save-profile {
-	margin-top: 50px;
-	margin-bottom: 20px;
-	text-align:right !important;
-}
-
-.flat {
-	background: none !important;
-	border: none !important;
-	border-bottom: 1px solid #ccc !important;
-	border-radius: 0px !important;
-	width: 100%;
-}
-
-/* Point Map CSS */
+/* -----------------------------------------
+   Point Map Styles
+----------------------------------------- */
 
 .use-those {
 	margin-top: 50px;
@@ -231,6 +244,10 @@ a.small.button.close-reveal-modal {
 	cursor: pointer;
 }
 
+/* -----------------------------------------
+   Delete Profile Styles
+----------------------------------------- */
+
 a.large.button.close-reveal-modal {
 	font-size: 18px;
 	line-height: 1;
@@ -242,7 +259,9 @@ a.large.button.close-reveal-modal {
 	cursor: pointer;
 }
 
-/* Footer CSS */
+/* -----------------------------------------
+   Footer Styles
+----------------------------------------- */
 
 #footer h3 a:hover,#footer h3 a:active{
 	background:-moz-radial-gradient(center 45deg,ellipse closest-side,rgba(255,255,255,0.3) 0,rgba(255,255,255,0) 100%);
@@ -288,26 +307,45 @@ a.large.button.close-reveal-modal {
 }
 
 
-/* Errors in forms */
+/* -----------------------------------------
+   Error Styles
+----------------------------------------- */
 
 small.error {
 	margin: -20px 0px 20px 4px;
 } 
 
-/* View profile */
+/* -----------------------------------------
+   Pictogram Styles
+----------------------------------------- */
 
-.grayed {
+.pictogram-button {
+	margin-top: 20px;
+	text-align:center;
+	font-family: "ModernPictogramsNormal";
+	font-size: 30px;
+	color: #ccc;
+	cursor: pointer;
+}
+
+.pictogram {
+	margin-top: 20px;
+	text-align:center;
+	font-family: "ModernPictogramsNormal";
+	font-size: 30px;
+	color: #aaa;
+	cursor: default;
+}
+
+.pictogram-button.active, .pictogram-button:hover {
 	color: #888;
 }
 
-.profile-item {
-	margin-top: 20px;
-}
-
-.smallmap-profile-container {
-    margin-top: 20px !important;
-}
-
-.white.label {
-	background-color: #ccc; color: #444 !important;
+.pictogram-search {
+	float:left;
+	font-family: "ModernPictogramsNormal";
+	font-size: 30px;
+	text-align:center;
+	color: #ccc;
+	cursor: default;
 }
