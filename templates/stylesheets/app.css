@@ -23,15 +23,15 @@
 
 @font-face {
     font-family: 'MetaBlack';
-    src: url('http://mozcom-cdn.mozilla.net/img/fonts/MetaWebPro-Black.eot');
-    src: local('☺'), url('http://mozcom-cdn.mozilla.net/img/fonts/MetaWebPro-Black.woff') format('woff');
+    src: url('../fonts/MetaWebPro-Black.eot');
+    src: local('☺'), url('../fonts/MetaWebPro-Black.woff') format('woff');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'MetaNormal';
-    src: url('http://mozcom-cdn.mozilla.net/img/fonts/MetaWebPro-Normal.eot');
-    src: local('☺'), url('http://mozcom-cdn.mozilla.net/img/fonts/MetaWebPro-Normal.woff') format('woff');
+    src: url('../fonts/MetaWebPro-Normal.eot');
+    src: local('☺'), url('../fonts/MetaWebPro-Normal.woff') format('woff');
     font-weight: bold;
 }
 
