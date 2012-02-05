@@ -13,6 +13,7 @@
 :: Footer Styles
 :: Error Styles
 :: Pictogram Styles
+:: Planet feed Styles
 */
 
 
@@ -349,3 +350,16 @@ small.error {
 	color: #ccc;
 	cursor: default;
 }
+
+/* -----------------------------------------
+   Planet feed Styles
+----------------------------------------- */
+
+.ItemTitle {
+	font-weight:bold;
+	margin:20px 0px 0px 0px; 
+}
+
+.ItemContent {
+}
+
