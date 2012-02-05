@@ -14,6 +14,8 @@
 :: Error Styles
 :: Pictogram Styles
 :: Planet feed Styles
+:: Logo gray Style
+:: Featured rep;
 */
 
 
@@ -151,6 +153,11 @@ li.active {
     border: 1px solid #ccc;
     z-index: -1;
     position: relative;
+}
+
+.view-change {
+	text-align: right;
+	margin-top: 20px;
 }
 
 /* -----------------------------------------
