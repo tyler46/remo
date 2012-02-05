@@ -124,8 +124,8 @@ li.active {
    Main Page Styles
 ----------------------------------------- */
 
-.blogpost {
-	margin-top: 20px;
+.main-section {
+	margin-bottom: 40px;
 }
 
 #more-posts {
@@ -134,9 +134,11 @@ li.active {
 }
 
 #featured { 
-  width: 992px;
-  height: 200px;
-  background: #000 url('images/orbit/loading.gif') no-repeat center center; overflow: hidden; 
+	width: 992px;
+	height: 200px;
+	background: #000 url('images/orbit/loading.gif') no-repeat center center; overflow: hidden; 
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 /* -----------------------------------------
@@ -363,3 +365,16 @@ small.error {
 .ItemContent {
 }
 
+/* -----------------------------------------
+   Logo Gray Styles
+----------------------------------------- */
+
+#gray-logo {
+	text-align:center;
+	margin-top:20px;
+}
+
+#about p {
+	font-size:15px !important;
+	text-align: justify;
+}
