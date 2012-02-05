@@ -375,6 +375,7 @@ small.error {
 }
 
 #about p {
-	font-size:15px !important;
+	font-weight:bold;
+	color: #777;
 	text-align: justify;
 }
