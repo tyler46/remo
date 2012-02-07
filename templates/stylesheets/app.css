@@ -156,7 +156,7 @@ li.active {
 }
 
 .view-change {
-	text-align: right;
+	text-align: center;
 	margin-top: 20px;
 }
 
@@ -385,4 +385,12 @@ small.error {
 	font-weight:bold;
 	color: #777;
 	text-align: justify;
+}
+
+/* -----------------------------------------
+   Featured reps Styles
+----------------------------------------- */
+
+.flat.big {
+	height: 200px;
 }
