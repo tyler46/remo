@@ -176,6 +176,14 @@ li.active {
 	text-align: left;
 }
 
+.mobile-list-warning {
+	text-align:center;
+}
+
+#list-people-view {
+	width: 100%;
+}
+
 /* -----------------------------------------
    View Profile Styles
 ----------------------------------------- */
