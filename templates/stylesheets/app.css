@@ -204,13 +204,14 @@ li.active {
 	background-color: #ccc; color: #444 !important;
 }
 
+
 /* -----------------------------------------
    Edit Profile Styles
 ----------------------------------------- */
 
 #profile-image {
 	margin-top: 20px;
-	text-align: left;
+	text-align: center;
 	color: #888;
 	font-size: 10px;
 }
