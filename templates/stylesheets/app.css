@@ -160,6 +160,22 @@ li.active {
 	margin-top: 20px;
 }
 
+.grid-profile {
+	padding: 10px !important;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.grid-profile-image img {
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.grid-profile-text img {
+	text-align: left;
+}
+
 /* -----------------------------------------
    View Profile Styles
 ----------------------------------------- */
