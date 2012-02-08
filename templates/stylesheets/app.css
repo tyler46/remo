@@ -114,6 +114,13 @@ a:hover, a:active{
 	border: none;
 }
 
+@media only screen and (max-width: 767px) {
+	#logo-box {
+	text-align:center;
+	}
+}
+
+
 li.last {
 	border-right:none;
 }
